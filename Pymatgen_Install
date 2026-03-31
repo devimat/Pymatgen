@@ -5,10 +5,10 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 
 Give the address 
-/Users/abhisheksharma/Pymatgen_Dir/miniconda3
+${HOME}/Pymatgen_Dir/miniconda3
 
 
-$ source /Users/abhisheksharma/Pymatgen_Dir/miniconda3/bin/activate # this will source the conda enviorment created
+$ source ${HOME}/Pymatgen_Dir/miniconda3/bin/activate # this will source the conda enviorment created
 
 git clone https://github.com/conda-forge/crystal-toolkit-feedstock.git / if this doest work then using the link download the zip file>unzip it (crystal-toolkit-feedstock) from github, and paste it inside the Pymatgen_Dir
 
